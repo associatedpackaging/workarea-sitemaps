@@ -1,0 +1,7 @@
+module Workarea
+  decorate Navigation::Taxon, with: :sitemaps do
+    def show_in_sitemap?
+      !placeholder? && active? && (navigable.present? || url.to_s.start_with?('http', '/'))
+    end
+  end
+end
