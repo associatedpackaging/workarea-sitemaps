@@ -29,7 +29,7 @@ module Workarea
         # Products
         #
         #
-        Catalog::Product.active.each_by(per_batch) do |product|
+        Catalog::Product.all.each_by(per_batch) do |product|
           next unless product.active?
           add generator.product_path(product), changefreq: 'daily'
         end
