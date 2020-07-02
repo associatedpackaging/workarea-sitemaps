@@ -1,3 +1,16 @@
+Workarea Sitemaps 2.1.8 (2020-07-02)
+--------------------------------------------------------------------------------
+
+*   Bump sitemap-generator gem version (#4)
+
+    Fixes an undefined method `yaml_as` error.
+
+    Co-authored-by: Ben Crouse <bencrouse@gmail.com>
+
+    Alexey Avdeev
+
+
+
 Workarea Sitemaps 2.1.6 (2019-08-21)
 --------------------------------------------------------------------------------
 
