@@ -17,6 +17,6 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.3.0'
 
-  s.add_dependency 'sitemap_generator', '~> 5.3.1'
+  s.add_dependency 'sitemap_generator', '~> 6.1.2'
   s.add_dependency 'workarea', '~> 3.x'
 end
